@@ -6,7 +6,8 @@
 /* common styles */
 
 body {
-    margin: 0;
+    max-width: 1240px;
+    margin: 0 auto;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -14,7 +15,7 @@ body {
 /* banners style start */
 .banners{
     background-color: #161616;
-    margin: 35px 130px;
+    margin: 20px 30px 60px 30px;
     border-radius: 30px;
 }
 .banner{
@@ -24,7 +25,7 @@ body {
 }
 .banner-left{
     margin-left: 80px;
-    margin-top: 50px;
+    margin-top: 60px;
 }
 .banner-title h1{
     color: white;
@@ -37,6 +38,7 @@ body {
     font-size: 16px;
 }
 .banner-watch{
+    display: flex;
     color: white;
     width: 120px;
     height: 50px;
@@ -46,13 +48,20 @@ body {
     transition: width 2s;
 }
 .banner-watch P{
-    align-items: center;
     padding-left: 10px;
     margin-top: 12px;
+}
+.banner-watch .fa-greater-than {
+    padding-left: 5px;
+    margin-top: 18px;
 }
 .banner-watch:hover{
     width: 170px;
     align-content: flex-end;
+}
+.banner-right img{
+    position: relative;
+    bottom: -6.5px;
 }
 /* media query for banner */
 /* Mobile devices */
@@ -92,3 +101,88 @@ body {
     
 }
 /* banners style end */
+.blogs{
+    display: flex;
+    gap: 10px;
+    margin: 80px 30px 40px 30px;
+}
+.left-side{
+    width: 250px;
+    height: 270px;
+    background-color: #161616;
+    border-radius: 5px;
+}
+.side-btn{
+    display: flex;
+    flex-direction: column;
+    margin: 40px 20px;
+    gap: 30px;
+}
+.match-btn{
+    border: 10px solid white;
+    border-radius: 5px;
+    background-color: white;
+    text-align: center;
+}
+.match-btn a{
+    text-decoration: none;
+    color: #161616;
+    padding: ;
+}
+.group-btn{
+    border: 10px solid white;
+    border-radius: 5px;
+    background-color: white;
+    text-align: center;
+}
+.group-btn a{
+    text-decoration: none;
+    color: #161616;
+}
+.blog-btn{
+    border: 10px solid red;
+    background-color: red;
+    border-radius: 5px;
+    text-align: center;
+}
+.blog-btn a{
+    text-decoration: none;
+    color: white;
+} 
+.right-side{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+.blog{
+    border: 1px solid rgb(231, 231, 231);
+    border-radius: 10px;
+}
+.blog-banner img{
+    width: 312px;
+    height: 175px;
+    border-radius: 10px 10px 0 0;
+}
+.blog-button{
+    margin-top: 10px;
+    margin-left: 12px;
+}
+.blog-title{
+    margin-left: 12px;
+    width: 300px;
+}
+.blog-icon{
+    margin-left: 12px;
+    color: #626161;
+}
+.blog-button a{
+    text-decoration: none;
+    color: #161616;
+    border: 1px solid #161616;
+    padding: 2px 6px;
+    border-radius: 5px;
+}
+.fa-comment-dots{
+    padding-left: 20px;
+}
