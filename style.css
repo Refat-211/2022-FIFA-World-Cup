@@ -130,7 +130,7 @@ body {
 .banners {
     background-color: #161616;
     margin: 5px;
-    border-radius: 20px;
+    border-radius: 5px;
     position: relative;
 }
 
@@ -364,13 +364,13 @@ body {
         }
         .match-btn a {
             color: black;
-            font-size: 13px;
+            font-size: 20px;
             font-weight: 500;
             text-decoration: none;
             border: 1px solid rgb(212, 212, 212);
             border-radius: 5px;
-    
-            padding: 5px;
+            margin: 5px 5px;
+            padding: 5px 20px;
             background-color: white;
         }
     
@@ -381,13 +381,13 @@ body {
     
         .group-btn a {
             color: black;
-            font-size: 13px;
+            font-size: 20px;
             font-weight: 500;
             text-decoration: none;
             border: 1px solid rgb(212, 212, 212);
             border-radius: 5px;
-    
-            padding: 5px 30px 5px 30px;
+            margin: 10px 10px;
+            padding: 5px 50px;
             background-color: white;
         }
     
@@ -398,23 +398,24 @@ body {
     
         .blog-btn a {
             color: white;
-            font-size: 13px;
+            font-size: 20px;
             font-weight: 500;
             text-decoration: none;
             border: 1px solid rgb(212, 212, 212);
             border-radius: 5px;
-            padding: 5px 50px 5px 50px;
+            margin: 10px 10px;
+            padding: 5px 60px;
             background-color: red;
         }
     
         .blog {
             border: 1px solid rgb(231, 231, 231);
             border-radius: 10px;
-            width: 270px;
+            width: 299px;
             height: 340px;
         }
         .blog-banner img{
-            width: 270px;
+            width: 299px;
             height: 175px;
             border-radius: 10px 10px 0 0;
         }
@@ -424,7 +425,7 @@ body {
         }
         .blog-title{
             margin-left: 12px;
-            width: 260px;
+            width: 300px;
         }
         .blog-icon{
             margin-left: 12px;
@@ -457,7 +458,7 @@ html,body {
 
     .left-side {
         width: 100%;
-        height: 100px;
+        height: 120px;
         background-color: white;
         border-radius: 5px;
     }
@@ -479,8 +480,7 @@ html,body {
         text-decoration: none;
         border: 1px solid rgb(212, 212, 212);
         border-radius: 5px;
-        
-        padding: 5px;
+        padding: 10px 5px;
         background-color: white;
     }
     
@@ -496,8 +496,7 @@ html,body {
         text-decoration: none;
         border: 1px solid rgb(212, 212, 212);
         border-radius: 5px;
-            
-        padding: 5px 30px 5px 30px;
+        padding: 10px 20px;
         background-color: white;
         }
     
@@ -513,7 +512,7 @@ html,body {
         text-decoration: none;
         border: 1px solid rgb(212, 212, 212);
         border-radius: 5px;
-        padding: 5px 50px 5px 50px;
+        padding: 10px 60px;
         background-color: red;
         }
 
@@ -800,13 +799,13 @@ hr{
     
     .btn-1 a {
         color: white;
-        font-size: 13px;
+        font-size: 20px;
         font-weight: 500;
         text-decoration: none;
         border: 1px solid rgb(212, 212, 212);
         border-radius: 5px;
-        margin: 5px;
-        padding: 5px;
+        margin: 5px 5px;
+        padding: 5px 20px;
         background-color: red;
         }
     
@@ -817,13 +816,13 @@ hr{
     
     .btn-2 a {
         color: black;
-        font-size: 13px;
+        font-size: 20px;
         font-weight: 500;
         text-decoration: none;
         border: 1px solid rgb(212, 212, 212);
         border-radius: 5px;
-        margin: 5px;
-        padding: 5px 30px 5px 30px;
+        margin: 10px 10px;
+        padding: 5px 50px;
         background-color: white;
         }
     
@@ -834,19 +833,19 @@ hr{
     
     .btn-3 a {
         color: black;
-        font-size: 13px;
+        font-size: 20px;
         font-weight: 500;
         text-decoration: none;
         border: 1px solid rgb(212, 212, 212);
         border-radius: 5px;
-        margin: 5px;
-        padding: 5px 50px 5px 50px;
+        margin: 10px 10px;
+        padding: 5px 60px;
         background-color: white;
         }
     .match {
         border: 1px solid rgb(196, 194, 194);
         border-radius: 10px;
-        width: 250px;
+        width: 299px;
         height: 250px;
         margin: 0 auto;
         }
@@ -867,8 +866,7 @@ hr{
         text-decoration: none;
         border: 1px solid rgb(212, 212, 212);
         border-radius: 5px;
-        margin: 5px;
-        padding: 5px;
+        padding: 10px 5px;
         background-color: red;
         }
     
@@ -884,8 +882,7 @@ hr{
         text-decoration: none;
         border: 1px solid rgb(212, 212, 212);
         border-radius: 5px;
-        margin: 5px;
-        padding: 5px 30px 5px 30px;
+        padding: 10px 20px;
         background-color: white;
         }
     
@@ -901,8 +898,7 @@ hr{
         text-decoration: none;
         border: 1px solid rgb(212, 212, 212);
         border-radius: 5px;
-        margin: 5px;
-        padding: 5px 50px 5px 50px;
+        padding: 10px 60px;
         background-color: white;
         }
     .match {
