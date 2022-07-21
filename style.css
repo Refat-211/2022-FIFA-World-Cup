@@ -327,8 +327,9 @@ body {
     padding: 15px;
     background-color: red;
 }
-/* media query for index.html>> blogs */
-/* mobile devices */
+/* media query for index.html */
+
+/* mobile devices for blogs */
 @media only screen and (max-width:688px) {
     html,body {
         width: 100%;
@@ -390,7 +391,7 @@ body {
             padding-left: 20px;
         }
     }
-/* tablet devices >>blog */
+/* tablet devices for blogs */
 @media only screen and (min-width:689px) and (max-width: 992px) {
 html,body {
         width: 100%;
@@ -583,8 +584,9 @@ hr{
     text-align: center;
     margin-top: 20px;
 }
-/* media query fot footer */
-/* mobile devices */
+/* media query footer */
+
+/* mobile devices for footer */
 @media only screen and (max-width:688px) {
 .footers {
         width: 100%;
