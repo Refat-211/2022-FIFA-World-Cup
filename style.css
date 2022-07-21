@@ -354,7 +354,54 @@ body {
             display: flex;
             flex-direction: column;
             gap: 5px;
-
+        }
+        .match-btn {
+            text-align: center;
+            width: 100%;
+        }
+        .match-btn a {
+            color: black;
+            font-size: 13px;
+            font-weight: 500;
+            text-decoration: none;
+            border: 1px solid rgb(212, 212, 212);
+            border-radius: 5px;
+    
+            padding: 5px;
+            background-color: white;
+        }
+    
+        .group-btn {
+            text-align: center;
+            width: 100%;
+        }
+    
+        .group-btn a {
+            color: black;
+            font-size: 13px;
+            font-weight: 500;
+            text-decoration: none;
+            border: 1px solid rgb(212, 212, 212);
+            border-radius: 5px;
+    
+            padding: 5px 30px 5px 30px;
+            background-color: white;
+        }
+    
+        .blog-btn {
+            text-align: center;
+            width: 100%;
+        }
+    
+        .blog-btn a {
+            color: white;
+            font-size: 13px;
+            font-weight: 500;
+            text-decoration: none;
+            border: 1px solid rgb(212, 212, 212);
+            border-radius: 5px;
+            padding: 5px 50px 5px 50px;
+            background-color: red;
         }
     
         .blog {
@@ -427,44 +474,44 @@ html,body {
         font-size: 13px;
         font-weight: 500;
         text-decoration: none;
-        border: 1px solid gray;
+        border: 1px solid rgb(212, 212, 212);
         border-radius: 5px;
         
         padding: 5px;
         background-color: white;
     }
     
-        .group-btn {
-            text-align: center;
-            width: 100%;
+    .group-btn {
+        text-align: center;
+        width: 100%;
         }
     
-        .group-btn a {
-            color: black;
-            font-size: 13px;
-            font-weight: 500;
-            text-decoration: none;
-            border: 1px solid gray;
-            border-radius: 5px;
+    .group-btn a {
+        color: black;
+        font-size: 13px;
+        font-weight: 500;
+        text-decoration: none;
+        border: 1px solid rgb(212, 212, 212);
+        border-radius: 5px;
             
-            padding: 5px 30px 5px 30px;
-            background-color: white;
+        padding: 5px 30px 5px 30px;
+        background-color: white;
         }
     
-        .blog-btn {
-            text-align: center;
-            width: 100%;
+    .blog-btn {
+        text-align: center;
+        width: 100%;
         }
     
-        .blog-btn a {
-            color: white;
-            font-size: 13px;
-            font-weight: 500;
-            text-decoration: none;
-            border: 1px solid gray;
-            border-radius: 5px;
-            padding: 5px 50px 5px 50px;
-            background-color: red;
+    .blog-btn a {
+        color: white;
+        font-size: 13px;
+        font-weight: 500;
+        text-decoration: none;
+        border: 1px solid rgb(212, 212, 212);
+        border-radius: 5px;
+        padding: 5px 50px 5px 50px;
+        background-color: red;
         }
 
     .right-side {
@@ -663,7 +710,7 @@ hr{
     font-size: 20px;
     font-weight: 500;
     text-decoration: none;
-    border: 1px solid gray;
+    border: 1px solid red;
     border-radius: 5px;
     margin: 5px;
     padding: 5px;
@@ -680,7 +727,7 @@ hr{
     font-size: 20px;
     font-weight: 500;
     text-decoration: none;
-    border: 1px solid gray;
+    border: 1px solid white;
     border-radius: 5px;
     margin: 5px;
     padding: 5px 46px 5px 46px;
@@ -697,7 +744,7 @@ hr{
     font-size: 20px;
     font-weight: 500;
     text-decoration: none;
-    border: 1px solid gray;
+    border: 1px solid white;
     border-radius: 5px;
     margin: 5px;
     padding: 5px 69px 5px 69px;
@@ -738,68 +785,120 @@ hr{
     justify-content: center;
     color: #4D4D4D;
 }
-/* mq for match.html */
-/* mobile devices >> banner */
+/* media query for match.html */
+
+/* mobile devices for blogs */
 @media only screen and (max-width:688px) {
     .match {
         border: 1px solid rgb(196, 194, 194);
         border-radius: 10px;
         width: 299px;
         height: 280px;
-        margin: 0 40px;
+        margin: 0 auto;
+    }
+    .btn-1 {
+        text-align: center;
+        width: 100%;
+        }
+    
+    .btn-1 a {
+        color: white;
+        font-size: 13px;
+        font-weight: 500;
+        text-decoration: none;
+        border: 1px solid rgb(212, 212, 212);
+        border-radius: 5px;
+        margin: 5px;
+        padding: 5px;
+        background-color: red;
+        }
+    
+    .btn-2 {
+        text-align: center;
+        width: 100%;
+        }
+    
+    .btn-2 a {
+        color: black;
+        font-size: 13px;
+        font-weight: 500;
+        text-decoration: none;
+        border: 1px solid rgb(212, 212, 212);
+        border-radius: 5px;
+        margin: 5px;
+        padding: 5px 30px 5px 30px;
+        background-color: white;
+        }
+    
+    .btn-3 {
+        text-align: center;
+        width: 100%;
+        }
+    
+    .btn-3 a {
+        color: black;
+        font-size: 13px;
+        font-weight: 500;
+        text-decoration: none;
+        border: 1px solid rgb(212, 212, 212);
+        border-radius: 5px;
+        margin: 5px;
+        padding: 5px 50px 5px 50px;
+        background-color: white;
         }
 }
-/* tablet devices >> blog */
+
+/* tablet devices for blogs */
 @media only screen and (min-width:688px) and (max-width:992px) {
 
     .btn-1 {
-            text-align: center;
-            width: 100%;
+        text-align: center;
+        width: 100%;
         }
     
-        .btn-1 a {
-            color: white;
-            font-size: 13px;
-            font-weight: 500;
-            text-decoration: none;
-            border: 1px solid gray;
-            border-radius: 5px;
-            margin: 5px;
-            padding: 5px;
-            background-color: red;
+    .btn-1 a {
+        color: white;
+        font-size: 13px;
+        font-weight: 500;
+        text-decoration: none;
+        border: 1px solid rgb(212, 212, 212);
+        border-radius: 5px;
+        margin: 5px;
+        padding: 5px;
+        background-color: red;
         }
     
-        .btn-2 {
-            text-align: center;
-            width: 100%;
+    .btn-2 {
+        text-align: center;
+        width: 100%;
         }
     
-        .btn-2 a {
-            color: black;
-            font-size: 13px;
-            font-weight: 500;
-            text-decoration: none;
-            border: 1px solid gray;
-            border-radius: 5px;
-            margin: 5px;
-            padding: 5px 30px 5px 30px;
-            background-color: white;
+    .btn-2 a {
+        color: black;
+        font-size: 13px;
+        font-weight: 500;
+        text-decoration: none;
+        border: 1px solid rgb(212, 212, 212);
+        border-radius: 5px;
+        margin: 5px;
+        padding: 5px 30px 5px 30px;
+        background-color: white;
         }
     
-        .btn-3 {
-            text-align: center;
-            width: 100%;
+    .btn-3 {
+        text-align: center;
+        width: 100%;
         }
     
-        .btn-3 a {
-            color: black;
-            font-size: 13px;
-            font-weight: 500;
-            text-decoration: none;
-            border: 1px solid gray;
-            border-radius: 5px;
-            margin: 5px;
-            padding: 5px 50px 5px 50px;
-            background-color: white;
+    .btn-3 a {
+        color: black;
+        font-size: 13px;
+        font-weight: 500;
+        text-decoration: none;
+        border: 1px solid rgb(212, 212, 212);
+        border-radius: 5px;
+        margin: 5px;
+        padding: 5px 50px 5px 50px;
+        background-color: white;
         }
 }
