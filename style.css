@@ -717,6 +717,10 @@ hr{
     gap: 10px;
     margin-top: 50px;
 }
+.match .flag img{
+    width: 94px;
+    height: 57px;
+}
 
 .flag h2{
     font-size: 18px;
