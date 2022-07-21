@@ -235,7 +235,7 @@ body {
     font-size: 20px;
     font-weight: 500;
     text-decoration: none;
-    border: 1px solid gray;
+    border: 1px solid white;
     border-radius: 5px;
     margin: 5px;
     padding: 5px;
@@ -251,7 +251,7 @@ body {
     font-size: 20px;
     font-weight: 500;
     text-decoration: none;
-    border: 1px solid gray;
+    border: 1px solid white;
     border-radius: 5px;
     margin: 5px;
     padding: 5px 46px 5px 46px;
@@ -267,7 +267,7 @@ body {
     font-size: 20px;
     font-weight: 500;
     text-decoration: none;
-    border: 1px solid gray;
+    border: 1px solid red;
     border-radius: 5px;
     margin: 5px;
     padding: 5px 69px 5px 69px;
