@@ -100,10 +100,10 @@ body {
         margin: 0 10px;
     }
     .banner-title h1{
-        font-size: 30px;
+        font-size: 40px;
     }
     .banner-details p{
-        font-size: 15px;
+        font-size: 20px;
     }
     .banner-watch{
         margin: auto;
@@ -352,7 +352,7 @@ body {
             display: flex;
             flex-direction: column;
             gap: 5px;
-            width: 100%;
+
         }
     
         .blog {
@@ -415,8 +415,56 @@ html,body {
         display: flex;
         justify-content: center;
         flex-direction: row;
-
     }
+    .match-btn {
+        text-align: center;
+        width: 100%;
+    }
+    
+    .match-btn a {
+        color: black;
+        font-size: 13px;
+        font-weight: 500;
+        text-decoration: none;
+        border: 1px solid gray;
+        border-radius: 5px;
+        
+        padding: 5px;
+        background-color: white;
+    }
+    
+        .group-btn {
+            text-align: center;
+            width: 100%;
+        }
+    
+        .group-btn a {
+            color: black;
+            font-size: 13px;
+            font-weight: 500;
+            text-decoration: none;
+            border: 1px solid gray;
+            border-radius: 5px;
+            
+            padding: 5px 30px 5px 30px;
+            background-color: white;
+        }
+    
+        .blog-btn {
+            text-align: center;
+            width: 100%;
+        }
+    
+        .blog-btn a {
+            color: white;
+            font-size: 13px;
+            font-weight: 500;
+            text-decoration: none;
+            border: 1px solid gray;
+            border-radius: 5px;
+            padding: 5px 50px 5px 50px;
+            background-color: red;
+        }
 
     .right-side {
         display: grid;
@@ -667,6 +715,10 @@ hr{
     gap: 10px;
     margin-top: 50px;
 }
+.flag img{
+    width: 93px;
+    height: 65px;
+}
 .flag h2{
     font-size: 18px;
     font-weight: 700px;
@@ -691,5 +743,60 @@ hr{
         border-radius: 10px;
         width: 299px;
         height: 280px;
+        margin: 0 40px;
+        }
+}
+/* tablet devices >> blog */
+@media only screen and (min-width:688px) and (max-width:992px) {
+
+    .btn-1 {
+            text-align: center;
+            width: 100%;
+        }
+    
+        .btn-1 a {
+            color: white;
+            font-size: 13px;
+            font-weight: 500;
+            text-decoration: none;
+            border: 1px solid gray;
+            border-radius: 5px;
+            margin: 5px;
+            padding: 5px;
+            background-color: red;
+        }
+    
+        .btn-2 {
+            text-align: center;
+            width: 100%;
+        }
+    
+        .btn-2 a {
+            color: black;
+            font-size: 13px;
+            font-weight: 500;
+            text-decoration: none;
+            border: 1px solid gray;
+            border-radius: 5px;
+            margin: 5px;
+            padding: 5px 30px 5px 30px;
+            background-color: white;
+        }
+    
+        .btn-3 {
+            text-align: center;
+            width: 100%;
+        }
+    
+        .btn-3 a {
+            color: black;
+            font-size: 13px;
+            font-weight: 500;
+            text-decoration: none;
+            border: 1px solid gray;
+            border-radius: 5px;
+            margin: 5px;
+            padding: 5px 50px 5px 50px;
+            background-color: white;
         }
 }
