@@ -297,7 +297,7 @@ body {
 }
 .blog-title{
     margin-left: 12px;
-    width: 300px;
+    width: 280px;
 }
 .blog-icon{
     margin-left: 12px;
@@ -407,11 +407,11 @@ body {
         .blog {
             border: 1px solid rgb(231, 231, 231);
             border-radius: 10px;
-            width: 299px;
+            width: 270px;
             height: 340px;
         }
         .blog-banner img{
-            width: 299px;
+            width: 270px;
             height: 175px;
             border-radius: 10px 10px 0 0;
         }
@@ -421,7 +421,7 @@ body {
         }
         .blog-title{
             margin-left: 12px;
-            width: 300px;
+            width: 260px;
         }
         .blog-icon{
             margin-left: 12px;
@@ -524,13 +524,13 @@ html,body {
     .blog {
         border: 1px solid rgb(231, 231, 231);
         border-radius: 10px;
-        width: 299px;
+        width: 280px;
         height: 340px;
         margin: 0 auto;
     }
 
     .blog-banner img {
-        width: 299px;
+        width: 280px;
         height: 175px;
         border-radius: 10px 10px 0 0;
     }
@@ -542,7 +542,7 @@ html,body {
 
     .blog-title {
         margin-left: 12px;
-        width: 300px;
+        width: 260px;
     }
 
     .blog-icon {
