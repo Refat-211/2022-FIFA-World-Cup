@@ -415,6 +415,7 @@ html,body {
         display: flex;
         justify-content: center;
         flex-direction: row;
+
     }
 
     .right-side {
@@ -608,7 +609,7 @@ hr{
 }
 
 .btn-1 a {
-    color: black;
+    color: white;
     font-size: 20px;
     font-weight: 500;
     text-decoration: none;
@@ -616,7 +617,7 @@ hr{
     border-radius: 5px;
     margin: 5px;
     padding: 5px;
-    background-color: white;
+    background-color: red;
 }
 
 .btn-2 {
@@ -642,7 +643,7 @@ hr{
 }
 
 .btn-3 a {
-    color: white;
+    color: black;
     font-size: 20px;
     font-weight: 500;
     text-decoration: none;
@@ -650,7 +651,7 @@ hr{
     border-radius: 5px;
     margin: 5px;
     padding: 5px 69px 5px 69px;
-    background-color: red;
+    background-color: white;
 }
 /* match part */
 .match {
@@ -690,7 +691,5 @@ hr{
         border-radius: 10px;
         width: 299px;
         height: 280px;
-        margin-left: 15vw;
-    
         }
 }
